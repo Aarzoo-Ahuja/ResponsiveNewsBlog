@@ -104,7 +104,7 @@
     .image1{
         margin-left:7px;
         width:170px;
-        height:190px;
+        height:200px;
     }
     .highlight{
         font-family:roboto;
@@ -124,8 +124,8 @@
         
     /*RESPONSIVE DESIGN CODE*/
 
-    /*LAPTOP*/
-    @media screen and (min-width:768px){
+     /*LAPTOP*/
+     @media screen and (min-width:768px){
         header,footer,#below-header{
             width:100%;
         }
@@ -146,12 +146,12 @@
             width:91%;
         }
         .article-area1{
-            width:76%;
+            width:80%;
         }
     }
 
         /*MOBILE DEVICE*/
-    @media screen and (min-width:368px) and (max-width:617px){
+    @media screen and (min-width:368px) and (max-width:619px){
         header,footer,#below-header{
             width:100%;
         }
@@ -159,30 +159,29 @@
             width:89%;
         }
         .article-area1{
-            width:75%;
+            width:85%;
+        }
+        .image1{
+            width:90%;
+            height:46%;
+        }
+        .written-content{
+            width:480%;
         }
         #below-header{
             flex-direction:column;
             justify-content: center;
             align-items:center;
         }
-    }
-
-    @media screen and (max-width:367px){
-        header,footer{
-            width:130%;
+        #below-header :nth-child(2){
+            order:3;
         }
-        #horizontal-line{
-            width:89%;
+        #below-header :nth-child(3){
+            order:2;
         }
-        .article-area1{
-            width:75%;
-        }
-        #below-header{
-            width:100%;
-            flex-direction:column;
-            justify-content: center;
-            align-items:center;
+        #subs{
+            margin-top:6%;
         }
     }
 
+    
