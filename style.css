@@ -1,11 +1,12 @@
 
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
 
         *{
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family:roboto;
+            font-family:IBM Plex Sans;;
         }
 
         header {
@@ -65,6 +66,7 @@
         .news-head{
             color:#263852;
             font-size:24px;
+            font-family:IBM Plex Sans;
             font-weight:bold;
         }
         
@@ -105,7 +107,10 @@
         height:190px;
     }
     .highlight{
-        font-weight:900;
+        font-family:roboto;
+    }
+    p{
+        font-family:roboto;
     }
         footer {
             height: 30px;
