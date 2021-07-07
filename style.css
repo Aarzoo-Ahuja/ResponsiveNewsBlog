@@ -156,9 +156,11 @@
             width:100%;
         }
         #horizontal-line{
+            margin-left:20px;
             width:89%;
         }
         .article-area1{
+            margin-left:23px;
             width:85%;
         }
         .image1{
@@ -169,8 +171,8 @@
             width:480%;
         }
         #allnews{
-            margin-bottom:-20%;
-            padding-bottom:-20%;
+            margin-bottom:-10%;
+            padding-bottom:-10%;
         }
         #below-header{
             flex-direction:column;
