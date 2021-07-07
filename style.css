@@ -168,6 +168,10 @@
         .written-content{
             width:480%;
         }
+        #allnews{
+            margin-bottom:-20%;
+            padding-bottom:-20%;
+        }
         #below-header{
             flex-direction:column;
             justify-content: center;
@@ -181,7 +185,7 @@
         }
         #subs{
             margin-top:6%;
-            margin-left:4%;
+            margin-left:5.5%;
         }
     }
 
