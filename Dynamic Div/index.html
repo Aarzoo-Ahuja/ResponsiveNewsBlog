@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ </head>
+<body>
+    <div id="widthDivision">
+    <div id="UserInput">
+    <div id="insertDiv">
+        <div class="insertDivChild" id="div1">THIS IS DIV 1</div>
+        <div class="insertDivChild">THIS IS DIV 3</div>
+        <input id="insertButton" type="submit" value="INSERT DIVISION">
+    </div>
+    
+    <form class="form" onsubmit="return false;">
+        <h3>MAKE DIVISIONS</h3>
+        <div class="formchild">
+            <label for="row-colID">Total Rows:</label>
+            <input type="number" class="row-colID" id="row" placeholder="Enter no. of rows..." required>
+        </div>
+        <div class="formchild">
+            <label for="row-colID">Total Columns:</label>
+            <input type="number" class="row-colID" id="col"   placeholder="Enter no. of columns..." required>
+          </div>
+        
+        <input onclick="makeMatrix()" class="button" type="submit" value="Display the Divisions">
+    </form>
+    
+    <form class="form" onsubmit="return false;">
+        <h3>COLOR A CELL</h3>
+        <div class="formchild">
+            <label for="row-colID">Row no. :</label>
+            <input type="number" class="row-colID" id="row2"  placeholder="Enter row no. ..." required>
+        </div>
+        <div class="formchild">
+            <label for="row-colID">Column no. :</label>
+            <input type="number"  class="row-colID" id="col2"  placeholder="Enter column no. ..." required>
+        </div>
+        <div class="formchild">
+            <label for="row-colID">Color name:</label>
+            <input type="text" class="row-colID" id="color" placeholder="Enter color name..." required>
+          </div>
+        
+        <input onclick="changeColor()" class="button" type="submit" value="Display the Color">
+    </form> 
+
+   </div>
+   
+   </div>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</body>
+</html>
